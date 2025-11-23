@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useEffect, useState } from 'react';
 import { ejercicioService, TipoEjercicio } from '@/app/services/ejercicioService';
 import { Button, Dialog, DialogTitle, DialogContent, DialogActions, TextField, IconButton, List, ListItem, ListItemText, ListItemSecondaryAction } from '@mui/material';
